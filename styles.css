@@ -1,0 +1,61 @@
+:root{
+    --orange: rgb(255,149,0);
+    --light-gray: rgb(162,162,162);
+    --dark-gray: rgb(80,80,80);
+}
+.container{
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    background-color: black;
+    width: 350px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 50px;
+}
+.display{
+    display: flex;
+    height: 120px;
+    color: white;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 70px;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: var(--dark-gray);
+
+}
+
+.wide {
+    width: 160px;
+}
+
+.line-one > .button {
+    background-color: var(--light-gray);
+    color: black;
+}
+
+.button.operator {
+    color: white;
+    background-color: var(--orange);
+}
